@@ -85,3 +85,58 @@
     font-weight: 500;
     text-shadow: 0 3px rgba(0, 0, 0, 0.4);
   }
+
+
+@media (max-width: 768px) {
+    header input {
+        max-width: 220px;
+        font-size: 18px;
+    }
+
+    .location .city {
+        font-size: 28px;
+    }
+
+    .location .date {
+        font-size: 14px;
+    }
+
+    .current .temp {
+        font-size: 82px;
+    }
+
+    .current .weather {
+        font-size: 28px;
+    }
+
+    .current .hi-low {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header input {
+        max-width: 180px;
+        font-size: 16px;
+    }
+
+    .location .city {
+        font-size: 24px;
+    }
+
+    .location .date {
+        font-size: 12px;
+    }
+
+    .current .temp {
+        font-size: 62px;
+    }
+
+    .current .weather {
+        font-size: 24px;
+    }
+
+    .current .hi-low {
+        font-size: 18px;
+    }
+}
